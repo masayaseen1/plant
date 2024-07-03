@@ -1,0 +1,270 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+body {
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+.blog-post {
+    width: 100%;
+    background: #006600;
+    padding: 20px;
+}
+
+.back {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.description {
+    margin: 0;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.text {
+    margin-bottom: 20px;
+    font-size: 22.4px;
+}
+
+.image-placeholder {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.list {
+    margin-bottom: 20px;
+}
+
+.list-items li,
+.numbered-list li {
+    margin-bottom: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+blockquote {
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+    border-left: 10px solid #ccc;
+    font-style: italic;
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+
+.author-avatar {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.author-details {
+    flex-grow: 1;
+}
+
+.author-name {
+    font-size: 24px;
+    margin: 0;
+}
+
+.author-title,
+.author-company {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.author-bio {
+    font-size: 16px;
+}
+
+.social-sharing {
+    margin-top: 20px;
+}
+
+.social-sharing a {
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #006600;
+}
+
+.social-sharing a:hover {
+    color: #004400;
+}
+
+.related-content {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #e9e9e9;
+    border-radius: 10px;
+}
+
+.related-content h3 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.related-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.related-content li {
+    margin-bottom: 10px;
+}
+
+.related-content a {
+    text-decoration: none;
+    color: #006600;
+    font-size: 18px;
+}
+
+.related-content a:hover {
+    color: #004400;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .title {
+        font-size: 28px;
+    }
+
+    .author-avatar {
+        width: 80px;
+        height: 80px;
+    }
+
+    .author-name {
+        font-size: 22px;
+    }
+
+    .author-title,
+    .author-company {
+        font-size: 16px;
+    }
+
+    .author-bio {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+
+    .blog-post {
+        padding: 15px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .text {
+        font-size: 20px;
+    }
+
+    .author-avatar {
+        width: 70px;
+        height: 70px;
+    }
+
+    .author-name {
+        font-size: 20px;
+    }
+
+    .author-title,
+    .author-company {
+        font-size: 14px;
+    }
+
+    .author-bio {
+        font-size: 14px;
+    }
+
+    .social-sharing a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    .blog-post {
+        padding: 10px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+
+    .text {
+        font-size: 18px;
+    }
+
+    .author-info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .author-avatar {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 10px;
+    }
+
+    .author-name {
+        font-size: 18px;
+    }
+
+    .author-title,
+    .author-company {
+        font-size: 12px;
+    }
+
+    .author-bio {
+        font-size: 12px;
+    }
+
+    .social-sharing a {
+        font-size: 16px;
+    }
+}
